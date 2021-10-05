@@ -1,0 +1,77 @@
+
+
+<br><br><br>
+{{ $paginator := .Paginator }}
+
+<!-- If there's more than one page. -->
+{{ if gt $paginator.TotalPages 1 }}
+
+  <ul class="pagination btn btn-sm justify-content-center">
+    
+    <!-- First page. -->
+    {{ if ne $paginator.PageNumber 1 }}
+    <li class="page-item">
+      <a class="page-link bg-dark border-secondary text-white" href="{{ $paginator.First.URL }}">
+        ««
+      </a>
+    </li>
+    {{ else }}
+	<li class="page-item disabled ">
+      <a class="page-link disabled bg-dark text-secondary  border-secondary" href="#" >
+        ««
+      </a>
+    </li>
+    {{ end }}
+
+    <!-- Previous page. -->
+    {{ if $paginator.HasPrev }}
+    <li class="page-item">
+      <a href="{{ $paginator.Prev.URL }}" class="page-link bg-dark border-secondary text-white">
+        Previous
+      </a>
+    </li>
+    {{ else }}
+    <li class="page-item disabled">
+      <a href="#" class="page-link bg-dark text-secondary border-secondary">
+        Previous
+      </a>
+    </li>
+    {{ end }}
+  
+
+    <!-- Next page. -->
+    {{ if $paginator.HasNext }}
+    <li class="page-item">
+      <a href="{{ $paginator.Next.URL }}" class="page-link border-secondary text-white bg-dark">
+        Next
+      </a>
+    </li>
+    {{ else }}
+	<li class="page-item disabled">
+      <a href="#" class="page-link bg-dark border-secondary">
+        Next
+      </a>
+    </li>
+    {{ end }}
+
+    <!-- Last page. -->
+    {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+    <li class="page-item">
+      <a class="page-link border-secondary bg-dark text-white" href="{{ $paginator.Last.URL }}">
+        »»
+      </a>
+    </li>
+    {{ else }}
+	<li class="page-item disabled">
+      <a class="page-link text-secondary border-secondary bg-dark" href="#">
+        »»
+      </a>
+    </li>
+   
+    {{ end }}
+
+  </ul><!-- .pagination -->
+{{ end }}
+<div style="text-align:center">
+        <small class="text-white">Halaman ke {{.Paginator.PageNumber}} dari 1 - {{.Paginator.TotalPages}}</small>
+</div>

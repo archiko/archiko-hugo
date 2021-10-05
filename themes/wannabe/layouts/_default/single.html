@@ -1,0 +1,46 @@
+
+
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navbar.html" }}
+{{ end }}
+
+{{ define "content" }}
+<!--
+.
+                    / V\
+                  / `  /
+                 <<   |
+                 /    |
+               /      |
+             /        |
+           /    \  \ /
+          (      ) | |
+  ________|   _/_  | |
+<__________\______)\__)
+-->
+
+<div class="text-white">
+	<img src="/assets/img/author.jpeg" class="rounded-circle" width=45>
+	<small style="font-size:12px">&nbsp; {{.Params.author}} - </small> 
+        <small style="font-size:12px" class="text-secondary"> {{.Date | time.Format ":date_medium"}}</small>
+	<br><br>
+        <span style="text-decoration:none;color:white"><h2><b>{{.Title}}</b></h2></span>
+	{{ range .Params.tags }}
+        <a href="/tags/{{ .  | urlize}}"><small class="badge bg-dark" style="color:white">{{- . -}}</small></a>
+	{{ end }}
+</div>
+<br>
+<div class="text-white">
+	{{.Content | safeHTML}}
+</div>
+
+{{ end }}
+
+
+{{ define "footer" }}
+{{ partial "footer.html" }}
+{{ end }}

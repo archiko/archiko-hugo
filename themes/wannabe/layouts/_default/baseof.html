@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+	<title>{{block "title" . }}{{end}}</title>
+	{{- partial "head.html" . -}}
+	</head>
+
+<body style="background-color:#0e1111">
+
+{{ block "navbar" . }}
+{{- end -}}
+
+<div class="container" id="zetmono">
+{{- block "content" . }}
+{{- end -}}
+</div>
+
+{{- block "footer" . }}
+{{- end -}}        
+
+{{- partial "jsfile.html" }}
+
+</body>
+</html>

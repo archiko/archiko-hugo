@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'id-id'
+title = "Archives Hiko"
+theme = "wannabe"
+paginate = 7
+paginatePath = "/"
+
+
+disableKinds = ["taxonomyTerm"]
+[params]
+    Description = "A python enthusiast"
+
+[taxonomies]
+    tag = "tags"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[markup.goldmark.renderer]
+  hardWraps = true
+
+    
