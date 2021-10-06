@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://archiko.my.id/'
 languageCode = 'id-id'
 title = "Archives Hiko"
 theme = "wannabe"
