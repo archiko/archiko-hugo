@@ -5,7 +5,6 @@ Tags:
 - python
 - oop
 Author: Hiko
-Thumbnail: /images/blog/initself.jpg
 Description: "pada python itu ada yang namanya magic keyword ciri-cirinya itu sederhana yaitu ada double underscore,nah salah satunya adalah `__init__`ini."
 ---
 
