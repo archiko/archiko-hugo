@@ -19,7 +19,7 @@
 
 <p class="text-white">
 	<small class="" >Postingan Tersedia</small> <span class="badge bg-info rounded">
-	10
+	{{ len (where .Site.RegularPages "Section" "=" "blog") }}
 	</span>
 </p>
 
@@ -46,7 +46,7 @@
         <a style="text-decoration:none;color:white" href="{{.Permalink}}" ><h4><b>{{.Title}}</b></h4>
 	</a>
 	{{ range .Params.tags }}
-        <a href="/tags/{{ . | urlize }}"><small style="color:white" class="badge bg-dark">{{- . -}}</small></a>
+        <a href="/tags/{{ . | urlize }}"><small style="color:#80ED99" class="badge bg-dark">{{- . -}}</small></a>
 	{{ end }}
         <hr>
 {{ end }}

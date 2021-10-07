@@ -9,8 +9,7 @@ Description: "pada python itu ada yang namanya magic keyword ciri-cirinya itu se
 ---
 
 ##### \_\_init__()
-pada python itu ada yang namanya magic keyword ciri-cirinya itu sederhana
-yaitu ada double underscore **"__"** nah salah satunya adalah `__init__`ini.
+pada python itu ada yang namanya magic keyword ciri-cirinya itu sederhana yaitu ada double underscore **"__"** nah salah satunya adalah `__init__`ini.
 
 saat kita membuat sebuah class kita membutuhkan method `__init__()` ini
 sebagai inisialisasi (menetapkan nilai) ketika object class dibuat. ia akan dijalankan pertama kali sebelum method-method lainnya dieksekusi.
@@ -25,7 +24,6 @@ ponsel = phone()
 ```
 
 ponsel ini adalah sebuah instance (wujud dari class) yang didapat dari object phone(),saat kita mengisi sebuah variabel dengan object phone() ini, maka statement print() akan dijalankan.
-
 
 coba lihat output dari hasil kode diatas
 ```python
@@ -90,8 +88,7 @@ class phone:
 ponsel = phone()
 ```
 
-nah jadi sebenarnya argumen `self` itu adalah si `ponsel` (instance) itu sendiri.
-lebih jelas kita bisa mengubah atau menambah sebuah attribute karena mereka berdua setara.
+nah jadi sebenarnya argumen `self` itu adalah si `ponsel` (instance) itu sendiri. lebih jelas kita bisa mengubah atau menambah sebuah attribute karena mereka berdua setara.
 
 ```
 class phone:
@@ -117,8 +114,7 @@ xperia
 ram: 8 Gb
 ```
 
-nah paham kan? diatas ini sama aja kalo kita nambahin attribute
-lewat si `self` nya
+nah paham kan? diatas ini sama aja kalo kita nambahin attribute lewat si `self` nya
 
 ```
 class ponsel:
@@ -134,9 +130,7 @@ print(ponsel.brand, ponsel.ram)
 ```
 
 ##### **penutup**
-Kalo ada salah penyebutan atau ya intinya kesalahan dalam selruh tulisan diatas
-mohon maaf, hadeh kaya harus pasang fitur komen biar kalo ada yang salah bisa dikomen.
-next dah. dankeee!
+Kalo ada salah penyebutan atau ya intinya kesalahan dalam selruh tulisan diatas mohon maaf, hadeh kaya harus pasang fitur komen biar kalo ada yang salah bisa dikomen. next dah. dankeee!
 
 
 

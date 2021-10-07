@@ -116,4 +116,4 @@ Author: Ardho Ainullah
 * Data
 
 <br><br>
-source: <a style="color:#80ED97" href="https://dev.to/hb/python-developer-roadmap-in-2021-2bmo">https://dev.to/hb/python-developer-roadmap-in-2021-2bmo</a>
+source: <a style="color:#80ED97" href="https://dev.to/hb/python-developer-roadmap-in-2021-2bmo">`https://dev.to/hb/python-developer-roadmap-in-2021-2bmo`</a>

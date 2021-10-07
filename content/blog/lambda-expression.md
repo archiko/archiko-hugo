@@ -8,19 +8,11 @@ Author: Hiko
 Description: "Lambda expression secara garis besar menurut saya adalah sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris."
 ---
 
-Lambda expression secara garis besar menurut saya adalah
-sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris. 
-<br><br>
-#### ** perbedaan **
-Ketika kita membuat sebuah fungsi dengan **def()** kita pasti membutuhkan nama untuk
-fungsi tersebut berbeda dengan lambda yang tidak membutuhkan nama untuk fungsi yang kita buat
-atau disebut juga dengan anonymous function. selain itu jika **def()** membutuhkan sebuah return
-untuk melempar nilainya, dilambda itu tidak berlaku. dan banyak lagi perbedaan atau kelebihan dari membuat 
-sebuah fungsi dengan lambda daripada dengan def function,
-kalian bisa searching sendiri, karena disini bakalan ngasih tau endpointnya saja.
+Lambda expression secara garis besar menurut saya adalah sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris. 
+#### **perbedaan**
+Ketika kita membuat sebuah fungsi dengan **def()** kita pasti membutuhkan nama untuk fungsi tersebut berbeda dengan lambda yang tidak membutuhkan nama untuk fungsi yang kita buat atau disebut juga dengan anonymous function. selain itu jika **def()** membutuhkan sebuah return untuk melempar nilainya, dilambda itu tidak berlaku. dan banyak lagi perbedaan atau kelebihan dari membuat sebuah fungsi dengan lambda daripada dengan def function, kalian bisa searching sendiri, karena disini bakalan ngasih tau endpointnya saja.
 
-<br>
-#### ** struktur atau format **
+#### **struktur atau format**
 ```
 lambda args: expression
 ```

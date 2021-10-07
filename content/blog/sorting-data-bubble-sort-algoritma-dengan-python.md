@@ -10,29 +10,23 @@ Description: "konsep dari sorting ini sederhananya adalah memanipulasi index yan
 ---
 
 
-membahas tentang penyotiran data (pengurutan) atau kata lainnya adalah
-megurutkan data dari yang paling kecil ke yang paling besar atau sebaliknya 
-(ascending / descending).
+membahas tentang penyotiran data (pengurutan) atau kata lainnya adalah megurutkan data dari yang paling kecil ke yang paling besar atau sebaliknya (ascending / descending).
 
-konsep dari sorting ini sederhananya adalah memanipulasi index yang ada didalam
-sebuah array yang mana mungkin nantinya element yang didalamnya saling ditukar.
+konsep dari sorting ini sederhananya adalah memanipulasi index yang ada didalam sebuah array yang mana mungkin nantinya element yang didalamnya saling ditukar.
 
-jadi ada tuch salah satu algoritma sorting data yaitu bubble sort (gelembung).
-sebenarnya banyak banget algoritma sorting bukan cuman bubble ini ada yang rumit kek
-`merge sort` atau `quick sort`.
+jadi ada tuch salah satu algoritma sorting data yaitu bubble sort (gelembung). sebenarnya banyak banget algoritma sorting bukan cuman bubble ini ada yang rumit kek `merge sort` atau `quick sort`.
 
 
-<br><br>
 #### **konsep**
-
-<img src="https://stackabuse.s3.amazonaws.com/media/bubble-sort-in-java-1.gif" class="img-fluid">
+{{< raw >}}
+<img src="https://stackabuse.s3.amazonaws.com/media/bubble-sort-in-java-1.gif" class="img-fluid"/>
 <small style="font-size:10px;color:#80ED99">source image: stackabuse.com</small>
+{{< /raw >}}
+<br>
+konsep dari bubble sort sendiri adalah pengurutan dengan cara pertukaran data dengan data disebelahnya secara terus menerus sampai dalam satu iterasi tertentu tidak ada lagi perubahan.
 
-konsep dari bubble sort sendiri adalah pengurutan dengan cara pertukaran data 
-dengan data disebelahnya secara terus menerus sampai dalam satu iterasi tertentu 
-tidak ada lagi perubahan.
+<br>
 
-<br><br>
 #### **implementasi**
 ```
 

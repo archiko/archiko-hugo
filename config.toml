@@ -4,7 +4,7 @@ title = "Archives Hiko"
 theme = "wannabe"
 paginate = 7
 paginatePath = "/"
-
+staticDir = ["static","static/images"]
 
 disableKinds = ["taxonomyTerm"]
 [params]

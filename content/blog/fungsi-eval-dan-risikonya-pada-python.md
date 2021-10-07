@@ -34,12 +34,12 @@ print (a, opsi, b)
 
 
 output
-<pre><code class="plaintext">$ python3 eval.py
+```shell
+$ python3 eval.py
 
 nilai a sama b ingin diapakan? +
 3 + 5
-</code></pre>
-
+```
 
 Tentu kita tidak bisa bukan, untuk menampilkan hasil dari 3 + 5 tersebut. disinilah kita bisa menggakali nya dengan eval. lihat kode dibawah ini
 ```python
@@ -53,11 +53,11 @@ print (eval(f'{a} {opsi} {b}'))
 
 
 output
-<pre><code class="plaintext">$ python3 eval.py
+```shell
+$ python3 eval.py
 nilai a sama b ingin diapakan? +
 8
-</code></pre>
-
+```
 
 Atau untuk lebih mudah memahaminya
 ```python
@@ -67,14 +67,14 @@ print (eval(var))
 ```
 
 output
-<pre><code class="plaintext">$ python3 eval.py
+```plaintext
+$ python3 eval.py
 1+1
 2
-</code></pre>
-paham? paham lah masa gaa. jadi intinya dia itu bisa ngerubah sebuah string itu menjadi sintaks murni. 
-btw Saya juga pernah implementasikan eval ini ke program simple random quiz math buatan saya, bisa cek <a href="https://pastebin.com/ZepZcygQ" style="color:#80ED99;">disini</a> untuk kodingannya.
+```
+paham? paham lah masa gaa. jadi intinya dia itu bisa ngerubah sebuah string itu menjadi sintaks murni. btw Saya juga pernah implementasikan eval ini ke program simple random quiz math buatan saya, bisa cek <a href="https://pastebin.com/ZepZcygQ" style="color:#80ED99;">disini</a> untuk kodingannya.
 
-<br>
+{{< raw >}}
 <script type="text/javascript">
 	atOptions = {
 		'key' : 'e00dc4387e6c63802d3ac0af944c2eb6',
@@ -85,7 +85,7 @@ btw Saya juga pernah implementasikan eval ini ke program simple random quiz math
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedformats.com/e00dc4387e6c63802d3ac0af944c2eb6/invoke.js"></scr' + 'ipt>');
 </script>
-<br>
+{{</raw>}}
 
 **Risk/Risiko**
 
@@ -102,18 +102,17 @@ print (eval(nama))
 
 
 output
-<pre><code class="plaintext">$ python3 eval.py
+```shell
+$ python3 eval.py
 
 masukan nama: os.system("ls ../")
 bin   dev  home  media  opt   root  sbin  sys  usr
 boot  etc  lib   mnt    proc  run   srv   tmp  var
-</pre></code>
+```
+
+tentu sangat berisiko tinggikan? apalagi program kita itu berbasis web seperti menggunakan framework django, dalam form yang kita buat itu menggunakan fungsi eval, tentu akan mudah heker untuk... damn.
 
 
-tentu sangat berisiko tinggikan? apalagi program kita itu berbasis web seperti menggunakan framework django, dalam form yang kita buat itu menggunakan fungsi eval, tentu akan mudah heker mengexploitasi web kita.
 
 
-
-
-oke mungkin segini dulu, semoga bermanfaat.
 
