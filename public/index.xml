@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives Hiko</title>
+    <link>http://archiko.my.id/</link>
+    <description>Recent content on Archives Hiko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://archiko.my.id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Render tag HTML dalam file markdown hugo</title>
+      <link>http://archiko.my.id/blog/raw-html-omitted-hugo/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/raw-html-omitted-hugo/</guid>
+      <description>belum lama ini saya mulai migrasi dari static site pelican ke hugo.
+terdapat banyak alasan kenapa saya pindah ke hugo yaps terlalu banyak kendala
+saat menggunakan pelican jadi saya putusin buat migrasi aja.
+ketika saya melakukan pemindahan bertahap dari peli ke hugo ternyata beberapa
+file postingan markdown saya itu menggunakan tag html yang mana semuanya jadi
+berantakan karena hugo gabisa nge&amp;rsquo;embed html di file markdownnya.
+karena saya males buat benerin satu persatu postingannya saya coba searching dan ternyata dihugo support untuk</description>
+    </item>
+    
+    <item>
+      <title>algoritma bubble sort dipython</title>
+      <link>http://archiko.my.id/blog/sorting-data-bubble-sort-algoritma-dengan-python/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/sorting-data-bubble-sort-algoritma-dengan-python/</guid>
+      <description>membahas tentang penyotiran data (pengurutan) atau kata lainnya adalah megurutkan data dari yang paling kecil ke yang paling besar atau sebaliknya (ascending / descending).
+konsep dari sorting ini sederhananya adalah memanipulasi index yang ada didalam sebuah array yang mana mungkin nantinya element yang didalamnya saling ditukar.
+jadi ada tuch salah satu algoritma sorting data yaitu bubble sort (gelembung). sebenarnya banyak banget algoritma sorting bukan cuman bubble ini ada yang rumit kek merge sort atau quick sort.</description>
+    </item>
+    
+    <item>
+      <title>instance method, class method dan static method dipython</title>
+      <link>http://archiko.my.id/blog/instance-class-dan-static-method/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/instance-class-dan-static-method/</guid>
+      <description>instance method itu adalah method yang ada didalam class ia menerima argumen self sebagai parameter pertamanya. yang mana nantinya akan berbeda dengan static method dan class method.
+sintaks instance method
+def func(self, arg1, arg2, ...) contoh dari instance method
+class phone: def __init__(self): self.brand = &amp;#34;MIUI&amp;#34; def showBrand(self): return self.brand print (phone().showBrand()) #output: MIUI seperti inilah bentukan dari instance method, kalian bisa lihat dibagian paramater showBrand() ia diisi dengan self, dengan adanya self method showBrand() ini leluasa untuk memanggil atau merubah attribute-attribute yang ada didalam classnya sendiri.</description>
+    </item>
+    
+    <item>
+      <title>konstruktor init dan fungsi self - Python OOP</title>
+      <link>http://archiko.my.id/blog/tentang-constructor-init-dan-self/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/tentang-constructor-init-dan-self/</guid>
+      <description>__init__() pada python itu ada yang namanya magic keyword ciri-cirinya itu sederhana yaitu ada double underscore &amp;quot;__&amp;quot; nah salah satunya adalah __init__ini.
+saat kita membuat sebuah class kita membutuhkan method __init__() ini
+sebagai inisialisasi (menetapkan nilai) ketika object class dibuat. ia akan dijalankan pertama kali sebelum method-method lainnya dieksekusi.
+class phone: def __init__(self): print (&amp;#39;booting proccess&amp;#39;) ponsel = phone() ponsel ini adalah sebuah instance (wujud dari class) yang didapat dari object phone(),saat kita mengisi sebuah variabel dengan object phone() ini, maka statement print() akan dijalankan.</description>
+    </item>
+    
+    <item>
+      <title>python developer roadmap</title>
+      <link>http://archiko.my.id/blog/python-developer-roadmap/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/python-developer-roadmap/</guid>
+      <description>Advanced Python  OOP Classes Dunder Methods Inheritance Decorators Functional Programming Lambda Functions Map, filter, zip, reduce Errors Error Handling: try, except File I/O Regex Testing, unittest Import Modules Packages Pip Virtual Environments Debugging  Popular Libraries  Tkinter Requests Pillow PyQT Pygame  Computer Science  Time Complexity Space Complexity Big O Notation Data Structures Algorithms  Web Scrapping  Beautiful soup Selenium Scrapy  Project Ideas  Hacker News Scraper Dev.</description>
+    </item>
+    
+    <item>
+      <title>Membuat fungsi dengan Lambda Expression</title>
+      <link>http://archiko.my.id/blog/lambda-expression/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/lambda-expression/</guid>
+      <description>Lambda expression secara garis besar menurut saya adalah sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris.
+perbedaan Ketika kita membuat sebuah fungsi dengan def() kita pasti membutuhkan nama untuk fungsi tersebut berbeda dengan lambda yang tidak membutuhkan nama untuk fungsi yang kita buat atau disebut juga dengan anonymous function. selain itu jika def() membutuhkan sebuah return untuk melempar nilainya, dilambda itu tidak berlaku. dan banyak lagi perbedaan atau kelebihan dari membuat sebuah fungsi dengan lambda daripada dengan def function, kalian bisa searching sendiri, karena disini bakalan ngasih tau endpointnya saja.</description>
+    </item>
+    
+    <item>
+      <title>Membuat sebuah grafik data diterminal dengan python</title>
+      <link>http://archiko.my.id/blog/membuat-sebuah-grafik-data-diterminal-dengan-tool-python/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/membuat-sebuah-grafik-data-diterminal-dengan-tool-python/</guid>
+      <description>Pernah terbesit atau terpikir buat nampilin grafik data atau chart diterminal? mungkin dari beberapa kalian pasti pernah kepikiran. apalagi yang make termux buat belajar visualisasi data diandroid karena setau saya tidak support buat display representasi visual dengan matplotlib.
+walaupun sebenarnya bisa, jika kalian menginstall jupyter-notebook, cuman kurang enak kalo bagi saya karena dilempar ke peramban buat aksesnya.
+Oleh karena itu ada sebuah tool dan package yang bernama termgraph dan plotext yang mana keduanya dibuat dengan bahasa pemogramman python.</description>
+    </item>
+    
+    <item>
+      <title>Cara bikin blog digithub pages dengan pelican</title>
+      <link>http://archiko.my.id/blog/bikin-blog-dengan-pelican/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/bikin-blog-dengan-pelican/</guid>
+      <description>Pelican adalah sebuah tool SSG (STATIC SITE GENERATOR) yang dibuat dengan bahasa python,right? oke, sebelum lebih jauh lebih baik kita mengenal apa itu ssg dulu.
+jika kita translate dalam bahasa indonesia ssg adalah penghasil website statis yang mana website statis ini tidak memerlukan database maupun server-side logic (backend) hanya didasari oleh html, css dan javascript. tentu ini akan membuat website kamu bakalan ngebut karena tidak terlalu banyak melakukan request ke backend.</description>
+    </item>
+    
+    <item>
+      <title>Fungsi eval dan risikonya pada python</title>
+      <link>http://archiko.my.id/blog/fungsi-eval-dan-risikonya-pada-python/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/fungsi-eval-dan-risikonya-pada-python/</guid>
+      <description>eval(expression, globals=None, locals=None) Fungsi dari eval ini sendiri untuk memparsing atau merubah sebuah string menjadi sebuah sintaks murni python.
+• paramater dalam fungsi eval()
+expression - string
+globals (opsional) - dictionary
+locals (opsional) - dictionary
+nah dalam kasus seperti apa, kita bisa menggunakan fungsi ini? oke
+coba lihat contoh kode dibawah ini
+a,b = 3,5 #pilihan: + / - * opsi = input(&amp;#39;nilai a sama b ingin diapakan? &amp;#39;) print (a, opsi, b) output</description>
+    </item>
+    
+    <item>
+      <title>Archiko - About</title>
+      <link>http://archiko.my.id/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

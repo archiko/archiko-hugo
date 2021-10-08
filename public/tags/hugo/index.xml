@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Archives Hiko</title>
+    <link>http://archiko.my.id/tags/hugo/</link>
+    <description>Recent content in hugo on Archives Hiko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://archiko.my.id/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Render tag HTML dalam file markdown hugo</title>
+      <link>http://archiko.my.id/blog/raw-html-omitted-hugo/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/raw-html-omitted-hugo/</guid>
+      <description>belum lama ini saya mulai migrasi dari static site pelican ke hugo.
+terdapat banyak alasan kenapa saya pindah ke hugo yaps terlalu banyak kendala
+saat menggunakan pelican jadi saya putusin buat migrasi aja.
+ketika saya melakukan pemindahan bertahap dari peli ke hugo ternyata beberapa
+file postingan markdown saya itu menggunakan tag html yang mana semuanya jadi
+berantakan karena hugo gabisa nge&amp;rsquo;embed html di file markdownnya.
+karena saya males buat benerin satu persatu postingannya saya coba searching dan ternyata dihugo support untuk</description>
+    </item>
+    
+  </channel>
+</rss>

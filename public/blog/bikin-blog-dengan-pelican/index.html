@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+	<title>
+Cara bikin blog digithub pages dengan pelican
+</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Archiko, Belajar ngoding, Toturial Python">
+<meta name="description" content=" jika kita translate dalam bahasa indonesia ssg adalah penghasil website statis yang mana website statis ini tidak memerlukan database maupun server-side logic (backend) hanya didasari oleh html, css dan javascript. " />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta property="og:image" content="https://archiko.my.id/thumb.webp"/>
+
+<link rel="shortcut icon" href="/assets/favicon.ico?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+<link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/default.min.css">
+<link rel="stylesheet" href="/assets/css/nord.css">
+                
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2149089797407520" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:#0e1111">
+
+
+<div class="container p-3 " id="zetmono">
+        <div class="navbar-nav ">
+		<span style="color:#80ED99;float:left;margin-top:13px;position:absolute;margin-left:-10px;" >
+			<img src="/assets/img/navicon.png" width=56>
+		</span>
+		
+                <div class="nav-link ms-auto fas fa-bars fa-2x" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#80ED99;float:right;">
+                </div>
+                <ul class="dropdown-menu dropdown-menu-end bg-dark p-3 " style="border-radius:10px" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="bg-transparent dropdown-item" style="color:#80ED99;" href="/"><small>/Home</small></a></li>
+                        <li><a class="bg-transparent dropdown-item" style="color:#80ED99;"href="/blog"><small>/Blog</small></a></li>
+                        <li><a class="bg-transparent dropdown-item" style="color:#80ED99;" href="/about"><small>/About</small></a></li>
+                </ul>
+        </div>
+</div>
+
+<div class="container" id="zetmono">
+
+
+<div class="text-white">
+	<img src="/assets/img/author.jpeg" class="rounded-circle" width=45>
+	<small style="font-size:12px">&nbsp; Hiko - </small> 
+        <small style="font-size:12px" class="text-secondary"> Sep 6, 2021</small>
+	<br><br>
+        <span style="text-decoration:none;color:white"><h2><b>Cara bikin blog digithub pages dengan pelican</b></h2></span>
+	
+        <a href="/tags/python"><small class="badge bg-dark" style="color:white">python</small></a>
+	
+        <a href="/tags/pelican"><small class="badge bg-dark" style="color:white">pelican</small></a>
+	
+        <a href="/tags/ssg"><small class="badge bg-dark" style="color:white">ssg</small></a>
+	
+</div>
+<br>
+<div class="text-white">
+	<p>Pelican adalah sebuah tool SSG (STATIC SITE GENERATOR) yang dibuat dengan bahasa python,right? oke, sebelum lebih jauh lebih baik kita mengenal apa itu ssg dulu.</p>
+<p>jika kita translate dalam bahasa indonesia ssg adalah <code>penghasil website statis</code> yang mana website statis ini tidak memerlukan database maupun server-side logic (backend) hanya didasari oleh html, css dan javascript. tentu ini akan membuat website kamu bakalan ngebut karena tidak terlalu banyak melakukan request ke backend. nah blog archiko ini sendiri juga dibuat dengan pelican.</p>
+<p>Kita masuk ke langkahnya</p>
+<h4 id="buat-repositori-baru"><strong>Buat repositori baru</strong></h4>
+<p>Diakun github kalian buat satu repo sama dengan username kalian, diakhir dengan <strong><code>.github.io</code></strong>, seperti dibawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plaintext" data-lang="plaintext">github.com/username/username.github.io
+</code></pre></div><br>
+#### **Install pelican dan ghp-import**
+<p>karena pelican merubah sebuah konten dari markdown menjadi html, kalian juga install Markdown. kita gunakan pip python untuk install nya :D</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pip install pelican ghp-import Markdown
+</code></pre></div><h4 id="kloning-repositori"><strong>kloning repositori</strong></h4>
+<p>selanjutnya kakian bisa clone repositorynya dan menambahkan <code>blog</code> diakhir nama repo untuk menggubah nama foldernya menjadi <code>blog</code>. kalian bebas beri nama apapun.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git clone https://github.com/username/username.github.io blog
+$ cd blog
+</code></pre></div><h5 id="tips"><strong>Tips</strong></h5>
+<p>karena nanti file-file konfigurasi pelican bakalan muncul dihalaman pengguna (direpositori username.github.io) dengan cabang <strong>master</strong>, kita bisa memilah nya menjadi dua cabang, untuk file-file konfigruasinya kita taruh dicabang baru dengan nama <strong>content</strong>. sedangkan untuk hasil konten web dari pelican kita taruh dicabang <strong>master</strong>.</p>
+<p>ini akan memudahkan kita nantinya jika ingin menghapus seluruh halaman/konten dalam websitenya karena hanya ada dicabang <strong>master</strong> dan kita bisa mengisinya lagi dari cabang <strong>content</strong>.</p>
+<p>paham? semoga&hellip;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git checkout -b content
+Switched to a new branch <span style="color:#e6db74">&#39;content&#39;</span>
+</code></pre></div><h4 id="konfigurasi-pelican"><strong>Konfigurasi pelican</strong></h4>
+<p>Ditahap ini kita akan melakukan konfigurasi pelican. Untuk inisialisasi gunakan perintah <strong><code>pelican-quickstart</code></strong>. Nanti kalian disuruh menjawab serangkaian pertanyaan.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pelican-quickstart
+Welcome to pelican-quickstart v4.6.0.
+
+This script will help you create a new Pelican-based website.
+
+Please answer the following questions so this script can generate the files
+needed by Pelican.
+
+
+&gt; Where <span style="color:#66d9ef">do</span> you want to create your new web site? <span style="color:#f92672">[</span>.<span style="color:#f92672">]</span> .
+&gt; What will be the title of this web site? Anime Streaming
+&gt; Who will be the author of this web site? Hiro
+&gt; What will be the default language of this web site? <span style="color:#f92672">[</span>en<span style="color:#f92672">]</span>
+&gt; Do you want to specify a URL prefix? e.g., https://example.com   <span style="color:#f92672">(</span>Y/n<span style="color:#f92672">)</span> n
+&gt; Do you want to enable article pagination? <span style="color:#f92672">(</span>Y/n<span style="color:#f92672">)</span> y
+&gt; How many articles per page <span style="color:#66d9ef">do</span> you want? <span style="color:#f92672">[</span>10<span style="color:#f92672">]</span>
+&gt; What is your time zone? <span style="color:#f92672">[</span>Europe/Paris<span style="color:#f92672">]</span> Asia/Jakarta
+&gt; Do you want to generate a tasks.py/Makefile to automate generation and publishing? <span style="color:#f92672">(</span>Y/n<span style="color:#f92672">)</span> y
+&gt; Do you want to upload your website using FTP? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> n
+&gt; Do you want to upload your website using SSH? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> n
+&gt; Do you want to upload your website using Dropbox? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> n
+&gt; Do you want to upload your website using S3? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> n
+&gt; Do you want to upload your website using Rackspace Cloud Files? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> n
+&gt; Do you want to upload your website using GitHub Pages? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+&gt; Is this your personal page <span style="color:#f92672">(</span>username.github.io<span style="color:#f92672">)</span>? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+Done. Your new project is available at /root/blog
+</code></pre></div><p>untuk bagian upload your site using github pages kalian pilih &ldquo;y&rdquo; karena dalam toturial ini kita bakalan hosting nya digithub.</p>
+<p>coba sekarang kalian lihat isi foldernya.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ ls
+Makefile  content  output  pelicanconf.py  publishconf.py  tasks.py
+</code></pre></div><h4 id="push"><strong>Push!</strong></h4>
+<p>Setalah file-file diatas sudah ada, kita push ke repositori yang dibuat tadi dengan cabang konten.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git add .
+$ git commit -m <span style="color:#e6db74">&#34;-&#34;</span>
+$ git push origin content
+</code></pre></div><p>Maap jika info commitnya hanya &ldquo;-&rdquo; karena saya bingung mau isi dengan apa wkwk</p>
+<h4 id="menambahkan-sebuah-postingan"><strong>Menambahkan sebuah postingan</strong></h4>
+<p>Yap disini kalian sudah bisa menambahkan artikel atau postingan.<br>
+Ayo kita tambahkan 1 postingan dan 1 halaman untuk about.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd content <span style="color:#f92672">&amp;&amp;</span> mkdir pages
+$ touch pages/about.md
+$ touch post-1.md
+</code></pre></div><p>Buka file <code>post-1.md</code> dengan kode editor kesayangan kalian.<br>
+tambahkan judul, tanggal, author dan isi konten.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plaintext" data-lang="plaintext">Title: Hallo Dunia!
+Date: 24, sep 2027
+Author: Hero
+
+# Halo Dunia!
+Ini adalah isi konten pertama saya menggunakan pelican.
+</code></pre></div><p>nah sekarang kalian coba buka file <strong>pages/about.md</strong> dan tambahkan seperti dibawah ini.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plaintext" data-lang="plaintext">Title: About
+Date: 24, sep 2027
+
+## About
+Hai nama gua hero dan terimakasih telah memberikan
+gua kesemepatan untuk menemani malam sedih mu.
+</code></pre></div><p>Sekarang dicabang <strong>content</strong> kita memiliki 1 halaman dan 1 postingan. sekarang kita tinggal publish ini kehalaman github pages kita.</p>
+
+
+<br>
+<script async="async" data-cfasync="false" src="//pl16575411.effectivecpmgate.com/e16ac09b2557683ec280a236f0c9e9c7/invoke.js"></script>
+<div id="container-e16ac09b2557683ec280a236f0c9e9c7"></div>
+<br>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '41764e38d9282efafaad334a6853f0f4',
+		'format' : 'iframe',
+		'height' : 300,
+		'width' : 160,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedformats.com/41764e38d9282efafaad334a6853f0f4/invoke.js"></scr' + 'ipt>');
+</script>
+
+
+<h4 id="publish"><strong>Publish</strong></h4>
+<p>Oke, kalian ada ditahap terakhir, waktunya untuk mempublish halaman kita.</p>
+<ul>
+<li>jalankan pelican untuk membuat file statis htmlnya dengan keluaran dipath <code>output</code>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pelican content -o output -s publishconf.py
+</code></pre></div><ul>
+<li>gunakan <strong>ghp-import</strong> untuk menambahkan isi konten dioutput tadi kecabang <code>master</code>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ ghp-import -m <span style="color:#e6db74">&#34;-&#34;</span> --no-jekyll -b master output 
+</code></pre></div><ul>
+<li>sekarang tinggal kita push kecabang lokal <code>master</code>nya.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git push origin master
+</code></pre></div><ul>
+<li>lakukan push dan commit lagi untuk menambahkan halaman dan post yang sudah dibuat tadi kecabang <code>content</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git add content
+$ git commit -m <span style="color:#e6db74">&#34;-&#34;</span>
+$ git push origin content
+</code></pre></div><h4 id="setup-halaman-github-pages">setup halaman github pages</h4>
+<p>selanjutnya kalian hanya tinggal buka halaman repository github kalian dan masuk kebagian <code>settings &gt; pages</code>.<br>
+
+
+<br>
+<img src="/images/githubpages.jpg" class="img-fluid">
+<br>
+
+<br>
+nanti kalian ubah opsi <code>none</code> yang ada di<strong>source</strong> ke branch <code>master</code>. lalu save!</p>
+<h4 id="finally-"><strong>Finally ~</strong></h4>
+<p>Sekarang halaman github pages kalian sudah siap untuk dikunjungi!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plaintext" data-lang="plaintext">https://username.github.io/
+</code></pre></div><br>
+###### **Penutup**
+Ya saya bisa yakin kalian akan bosan dengan tampilan defaultnya, namun kalian bisa mengantinya dengan tema-tema yang sudah banyak tersedia, bisa disearching sendiri. selain itu ada juga untuk kustomisasi tema secara mandiri (bikin sendiri) seperti blog ini, mungkin bakalan ada dinext post untuk toturialnya, pantengin teruss ya. enjoy!
+
+</div>
+
+</div>
+<br><br><br><br>
+<div class="footer text-secondary text-center " style="margin-top:auto;background:transparent">
+	<div class="col-lg-12 p-3">
+		<div class="row copyright">
+			<div class="col-lg-12">
+				<p style="font-size:10px">&copy; 2021 Archives Hiko <br>Powered by hugo <i class="fa fa-heart"></i> & <i class="fa fa-coffee"></i> 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/assets/jquery/jquery.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="/assets/bootstrap/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/assets/popper/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="/assets/js/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+
+</body>
+</html>

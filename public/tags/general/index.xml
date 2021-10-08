@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general on Archives Hiko</title>
+    <link>http://archiko.my.id/tags/general/</link>
+    <description>Recent content in general on Archives Hiko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://archiko.my.id/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python developer roadmap</title>
+      <link>http://archiko.my.id/blog/python-developer-roadmap/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/python-developer-roadmap/</guid>
+      <description>Advanced Python  OOP Classes Dunder Methods Inheritance Decorators Functional Programming Lambda Functions Map, filter, zip, reduce Errors Error Handling: try, except File I/O Regex Testing, unittest Import Modules Packages Pip Virtual Environments Debugging  Popular Libraries  Tkinter Requests Pillow PyQT Pygame  Computer Science  Time Complexity Space Complexity Big O Notation Data Structures Algorithms  Web Scrapping  Beautiful soup Selenium Scrapy  Project Ideas  Hacker News Scraper Dev.</description>
+    </item>
+    
+  </channel>
+</rss>

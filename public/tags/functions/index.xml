@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>functions on Archives Hiko</title>
+    <link>http://archiko.my.id/tags/functions/</link>
+    <description>Recent content in functions on Archives Hiko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://archiko.my.id/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat fungsi dengan Lambda Expression</title>
+      <link>http://archiko.my.id/blog/lambda-expression/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://archiko.my.id/blog/lambda-expression/</guid>
+      <description>Lambda expression secara garis besar menurut saya adalah sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris.
+perbedaan Ketika kita membuat sebuah fungsi dengan def() kita pasti membutuhkan nama untuk fungsi tersebut berbeda dengan lambda yang tidak membutuhkan nama untuk fungsi yang kita buat atau disebut juga dengan anonymous function. selain itu jika def() membutuhkan sebuah return untuk melempar nilainya, dilambda itu tidak berlaku. dan banyak lagi perbedaan atau kelebihan dari membuat sebuah fungsi dengan lambda daripada dengan def function, kalian bisa searching sendiri, karena disini bakalan ngasih tau endpointnya saja.</description>
+    </item>
+    
+  </channel>
+</rss>

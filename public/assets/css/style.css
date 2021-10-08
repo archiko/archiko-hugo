@@ -1,0 +1,50 @@
+
+body {     display: flex;
+           min-height:100vh;
+           flex-direction:column;
+                }
+
+#zetmono ul,li,small,a,h1,h2,h3,h4,h5,h6,p { font-family: 'Azeret Mono', monospace;}
+
+code {border-radius:3px}
+code {color:#80ED99;font-size:13px}
+
+p,ul,li {font-size:14px}
+
+
+.typewriter {
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color:white
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #80ED99; 
+    }
+}
+
+
