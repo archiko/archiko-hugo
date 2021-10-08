@@ -202,7 +202,6 @@ print (smartphone2)
 
 nah seperti itulah factory method, cukup keren bukan?
 
-<br>
 ##### **kesimpulan**
   -  `Method` atau bisa disebut juga dengan Instance method adalah method yang wajib menyertakan parameter self, dimana self merujuk pada instace kelas tersebut. Jenis method yang sangat cocok digunakan jika terdapat case yang mengharuskan kita berkomunikasi langsung dengan instance suatu class, serta masih membutuhkan attribut-atrribut lain dalam classnya.
 <br><br>
