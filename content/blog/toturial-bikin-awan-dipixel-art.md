@@ -5,6 +5,7 @@ Tags:
 - pixelart
 Author: Ardho Ainullah
 Description: "pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art jadi saya tidak bisa mencontohkan semuanya, karena saya juga gatau gimana cara bikin nya wkwk."
+Thumbnail: "/images/cloud1.png"
 ---
 
 pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art jadi
