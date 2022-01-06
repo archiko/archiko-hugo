@@ -1,4 +1,4 @@
 ---
-title: Archiko - Blog
+title: Blog
 description: "Halaman Blog"
 ---

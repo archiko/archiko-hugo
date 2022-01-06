@@ -1,6 +1,6 @@
 ---
-title: Archiko - About
+title: About
 layout: about
 draft: false
-description: "Tentang Archives Hiko"
+description: "Tentang Archiko"
 ---
