@@ -1,6 +1,6 @@
 baseURL = 'http://archiko.my.id/'
 languageCode = 'id-id'
-title = "Archives Hiko"
+title = "Archiko"
 theme = "wannabe"
 paginate = 7
 paginatePath = "/"
@@ -8,7 +8,7 @@ staticDir = ["static","static/images"]
 
 disableKinds = ["taxonomyTerm"]
 [params]
-    Description = "A python enthusiast"
+    Description = ""
 
 [taxonomies]
     tag = "tags"
