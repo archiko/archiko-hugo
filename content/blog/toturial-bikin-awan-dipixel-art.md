@@ -4,11 +4,11 @@ Date: 2022-01-06
 Tags:
 - pixelart
 Author: Ardho Ainullah
-Description: "pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art. karena terlalu banyak saya tidak bisa mencontoh semuanya, karena saya juga gatau gimana cara bikin nya wkwk."
+Description: "pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art jadi saya tidak bisa mencontohkan semuanya, karena saya juga gatau gimana cara bikin nya wkwk."
 ---
 
-pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art.
-karena terlalu banyak saya tidak bisa mencontoh semuanya, karena saya juga gatau gimana cara bikin nya wkwk.
+pada kesempatan kali ini saya mau kasih toturial gimana cara bikin awan dipixel art, karena ada banyak sekali tipe atau gaya awan dalam pixel art jadi
+saya tidak bisa mencontohkan semuanya, karena saya juga gatau gimana cara bikin nya wkwk.
 
 baiklah, contoh awan yang akan kita buat seperti dibawah ini.
 
