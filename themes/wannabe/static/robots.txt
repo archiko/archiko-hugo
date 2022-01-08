@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /tags/
+Disallow: /categories/
 
 Sitemap: https://archiko.my.id/sitemap.xml

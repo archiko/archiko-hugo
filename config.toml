@@ -6,6 +6,8 @@ paginate = 7
 paginatePath = "/"
 staticDir = ["static","static/images"]
 
+
+enableRobotsTXT = true
 disableKinds = ["taxonomyTerm"]
 [params]
     Description = ""
@@ -19,3 +21,4 @@ disableKinds = ["taxonomyTerm"]
 [markup.goldmark.renderer]
   hardWraps = true
   unsafe = true    
+
