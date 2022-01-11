@@ -1,11 +1,12 @@
 ---
-Title: Toturial pembukaan catur Gambit Mentri - Queen's Gambit
+Title: Belajar pembukaan catur Gambit Mentri - Queen's Gambit
 Date: 2021-05-21
 Tags:
 - chess
 - catur
 Author: Ardho Ainullah
 Description: "Umum nya gambit mentri ini terbagi kepada dua kategori Diterima dan ditolak jadi kesimpulan nya jika lawan menjalankan c6 (slav def), dsb. selain dxc4 itu bakalan masuk ke declined ( ditolak ) "
+Thumbnail: https://1.bp.blogspot.com/-p3BljKdtAEo/YKZxYpCCiyI/AAAAAAAAAEM/I1VEMqqLZdw_UGbhF_4BbLLCdjt2AOHWgCLcBGAsYHQ/s783/images%2B%25282%2529.jpeg 
 ---
 <br>
 <img src="https://1.bp.blogspot.com/-p3BljKdtAEo/YKZxYpCCiyI/AAAAAAAAAEM/I1VEMqqLZdw_UGbhF_4BbLLCdjt2AOHWgCLcBGAsYHQ/s783/images%2B%25282%2529.jpeg" class="img-fluid">
