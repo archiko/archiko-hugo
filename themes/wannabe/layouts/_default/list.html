@@ -50,7 +50,7 @@
   ________|   _/_  | |
 <__________\______)\__)
 -->
-{{ range .Paginator.Pages }}
+{{ range where .Site.RegularPages "Params.hidden" "ne" "true" }}
         <small class="text-secondary">{{.Date | time.Format ":date_medium"}}</small>
 	{{ if or (eq .Section "archives") (eq .Section "link") (eq .Section "note") }}
         <small class="read-time text-secondary">- {{ if lt (math.Round (div (countwords .Content) 250.0)) 1 }}1{{ else }}{{ (math.Round (div (countwords .Content) 250.0)) }}{{ end }} min read</small>{{ end }}
