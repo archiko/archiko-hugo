@@ -24,9 +24,9 @@
 
 <br><br>
 <h3 style="color:white"><b>Categories</b></h3>
-<a href="/archives/programming"> <span class="badge bg-dark rounded">programming</span></a>
-<a href="/archives/web-development"> <span class="badge bg-dark rounded">web development</span></a>
-<a href="/archives/programming"> <span class="badge bg-dark rounded">write ups</span></a>
+{{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+<a href="{{.Permalink}}"> <span class="badge bg-dark rounded">{{ .Title }}</span></a>
+{{ end }}
 
 
 
@@ -58,7 +58,7 @@
 
         <a style="text-decoration:none;color:white" href="{{.Permalink}}" >
 	<h4><b>{{.Title}}</b></h4>
-	<p style="font-size:10px">{{.Summary}}..</p>
+	<p style="font-size:10px">{{.Summary}}...</p>
 	</a>
 	
 	{{ range .Params.tags }}

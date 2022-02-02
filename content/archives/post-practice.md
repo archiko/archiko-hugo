@@ -4,6 +4,8 @@ Date: 2022-02-02
 Tags:
 - ctf
 - writeup
+categories:
+- write ups
 Description: "secara garis besar kita harus melakukan post request terhadap url http://165.227.106.113/post.php seperti..."
 Author: 0xHynz
 ---

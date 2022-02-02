@@ -4,6 +4,8 @@ Date: 2021-10-08
 Tags:
 - ssg
 - hugo
+categories:
+- web development
 Author: Hiko
 Thumbnail: "/images/htmlhugo.jpg"
 Description: "karena saya males buat benerin satu persatu postingannya saya coba searching dan ternyata dihugo support untuk menambahkan tag-tag html dalam markdownnya. terdapat dua cara untuk menggunakan tag html dalam file markdown dihugo"

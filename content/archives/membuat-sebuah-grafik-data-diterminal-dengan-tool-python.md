@@ -4,7 +4,8 @@ Date: 2021-09-10
 tags: 
 - python
 - tools
-- packages
+categories:
+- programming
 author: Hiko
 Description: "Pernah terbesit atau terpikir buat nampilin grafik data atau chart diterminal? mungkin dari beberapa kalian pasti pernah kepikiran...."
 ---

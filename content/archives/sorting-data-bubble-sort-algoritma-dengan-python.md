@@ -4,6 +4,10 @@ Tags:
 - fundamental
 - algoritma
 - python
+
+categories:
+- programming
+
 Date: 2021-09-24
 Author: Hiko
 Description: "konsep dari sorting ini sederhananya adalah memanipulasi index yang ada didalam sebuah array yang mana mungkin nantinya element yang didalamnya saling ditukar."

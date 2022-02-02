@@ -4,6 +4,9 @@ Date: 2021-09-14
 Tags: 
 - python
 - oop
+
+categories:
+- programming
 Author: Hiko
 Description: "pada python itu ada yang namanya magic keyword ciri-cirinya itu sederhana yaitu ada double underscore,nah salah satunya adalah `__init__`ini."
 ---

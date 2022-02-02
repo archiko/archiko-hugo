@@ -4,6 +4,8 @@ Date: 2021-09-12
 Tags: 
 - python
 - functions
+categories:
+- programming
 Author: Hiko
 Description: "Lambda expression secara garis besar menurut saya adalah sebuah ekspresi untuk membuat sebuah fungsi hanya dengan satu baris."
 ---

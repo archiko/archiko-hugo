@@ -5,6 +5,9 @@ Tags:
 - python
 - pelican
 - ssg
+categories:
+- web development
+
 Author: Hiko
 Description: "jika kita translate dalam bahasa indonesia ssg adalah penghasil website statis yang mana website statis ini tidak memerlukan database maupun server-side logic (backend) hanya didasari oleh html, css dan javascript."
 ---

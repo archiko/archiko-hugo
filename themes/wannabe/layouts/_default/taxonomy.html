@@ -10,7 +10,13 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item "><a href="/" style="color:#80ED99;text-decoration:none">Home</a></li>
+	{{ if eq .Section "categories" }}
+    <li class="breadcrumb-item "><a href="#" style="color:#80ED99;text-decoration:none">Category</a></li>
+	{{ else }}
     <li class="breadcrumb-item "><a href="#" style="color:#80ED99;text-decoration:none">Tags</a></li>
+	{{ end }}
+
+	
     <li class="breadcrumb-item active " aria-current="page">{{.Title}}</li>
   </ol>
 </nav>

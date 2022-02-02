@@ -4,6 +4,8 @@ Date: 2021-09-04
 Tags: 
 - python
 - module
+categories:
+- programming
 Author: Ardho Ainullah
 Description: "Fungsi dari eval ini sendiri untuk memparsing atau merubah sebuah string menjadi sebuah sintaks murni python."
 ---

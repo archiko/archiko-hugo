@@ -4,6 +4,8 @@ Date: 2021-09-19
 Tags: 
 - python
 - oop
+categories:
+- programming
 Author: Hiko
 Description: "instance method itu adalah method yang ada didalam class ia menerima argumen `self` sebagai parameter pertamanya. yang mana nantinya akan berbeda dengan static method dan class method."
 ---

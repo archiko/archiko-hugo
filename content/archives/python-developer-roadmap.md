@@ -4,7 +4,9 @@ Date: 2021-09-13
 Tags: 
 - python 
 - general
-Author: Ardho Ainullah
+categories:
+- programming
+Author: Hiko
 ---
 #### **Advanced Python**
 * OOP
